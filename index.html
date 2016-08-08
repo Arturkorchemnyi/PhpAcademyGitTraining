@@ -10,6 +10,43 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/heart.css">
     <link href='https://fonts.googleapis.com/css?family=Bitter:700' rel='stylesheet' type='text/css'>
+    <style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.inner-menu ul {
+			list-style: outside none none;
+			overflow: hidden;
+			background-color: #3c948b;
+			font-family: "Bitter",serif;
+		}
+		
+		.inner-menu li {
+			float: left;
+    		text-transform: uppercase;
+			width: 13%;
+			margin-left: 10%;
+			margin-right: 10%;
+			margin-bottom: 10px;
+			margin-top: 10px;
+			text-align: center;
+		}
+		
+		.inner-menu li a {
+			padding: 10px;
+			text-decoration: none;
+			color: #343434;
+		}
+		
+		.inner-menu li a:hover {
+			background: red;
+			color: white;
+			border-radius: 25px;
+			font-weight: bold;
+		}
+			
+	</style>
     <title>Yours title here...</title>
 </head>
 <body>
@@ -18,7 +55,15 @@
         <div id="heart"></div>
         <div class="love-text">Front End</div>
     </div>
-
+    <div class="inner-menu">
+    	<ul>
+			<li><a href="#">CSS</a></li>
+			<li><a href="#">HTML</a></li>
+			<li><a href="#">JavaScript</a></li>
+    		
+    	</ul>
+    </div>
+	
     Yours content here...
     <div class="remove-me">
         Surprize !!! One more line )
